@@ -10,18 +10,16 @@
   
    
    
-    <form class="alert btn-theme03 top-center" action="<?php echo base_url()?>Imagen_Controller/subirimagen" method='POST' enctype="multipart/form-data" >
-        <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-5">
-            <br>
+    <form  action="<?php echo base_url()?>Imagen_Controller/subirimagen" method='POST' enctype="multipart/form-data" >
+        
+         
             <center><h2>Subida de imagenes</h2></center>
             <br>
            
-            <div class="upload-btn-wrapper">
-                  <button class="img">Subir Imagen</button>
+            <div align="center">
+                  
                   <input type="file" id="files" name="imagen" style="cursor: pointer;" accept="image/*" >
-            </div>
+            
              <!--<input type="file" id="files" name="files[]" />-->
         <br />
         <output id="list"></output>
@@ -52,7 +50,7 @@
             
               document.getElementById('files').addEventListener('change', archivo, false);
       </script>
-           
+           <br><br><br>
         <input type="submit" class="btn btn-theme02" name="enviar" value="Guardar" style="cursor: pointer;" />
                
         </div>
@@ -62,13 +60,13 @@
 <!--End Container-->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <!--<script src="http://code.jquery.com/jquery.js"></script>
-<script src="<?php echo base_url()?>assets1/plugins/jquery/jquery.min.js"></script>
-<script src="<?php echo base_url()?>assets1/plugins/jquery-ui/jquery-ui.min.js"></script>
+<script src="<?php// echo base_url()?>assets1/plugins/jquery/jquery.min.js"></script>
+<script src="<?php// echo base_url()?>assets1/plugins/jquery-ui/jquery-ui.min.js"></script>
  Include all compiled plugins (below), or include individual files as needed -->
-<!--<script src="<?php echo base_url()?>assets1/plugins/bootstrap/bootstrap.min.js"></script>
-<script src="<?php echo base_url()?>assets1/plugins/justified-gallery/jquery.justifiedGallery.min.js"></script>
-<script src="<?php echo base_url()?>assets1/plugins/tinymce/tinymce.min.js"></script>
-<script src="<?php echo base_url()?>assets1/plugins/tinymce/jquery.tinymce.min.js"></script>-->
+<!--<script src="<?php// echo base_url()?>assets1/plugins/bootstrap/bootstrap.min.js"></script>
+<script src="<?php// echo base_url()?>assets1/plugins/justified-gallery/jquery.justifiedGallery.min.js"></script>
+<script src="<?php// echo base_url()?>assets1/plugins/tinymce/tinymce.min.js"></script>
+<script src="<?php// echo base_url()?>assets1/plugins/tinymce/jquery.tinymce.min.js"></script>-->
 <script>
         $.backstretch("<?php echo base_url()?>assets/img/MD.jpg", {speed: 500});
     </script>

@@ -5,12 +5,8 @@ class Imagen_model extends CI_Model
 {
 	
 	public function subir($imagen){
-
-		$data=array(
-			'nombre' =>$imagen, 
-			
-			
-				);
-		$this->db->update('imagene', $data);
+		$this->db->set('nombre',$imagen);
+		
+		$this->db->insert('imagenes');
 			}
 }
