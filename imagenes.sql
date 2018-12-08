@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 08-12-2018 a las 16:06:40
+-- Tiempo de generación: 08-12-2018 a las 16:12:45
 -- Versión del servidor: 10.1.37-MariaDB
 -- Versión de PHP: 7.2.12
 
@@ -21,6 +21,8 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `imagenes`
 --
+CREATE DATABASE IF NOT EXISTS `imagenes` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `imagenes`;
 
 -- --------------------------------------------------------
 
